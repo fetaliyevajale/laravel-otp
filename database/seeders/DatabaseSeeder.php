@@ -11,7 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Rolları və istifadəçiləri seeder vasitəsilə əlavə edin
         $this->call([
             RoleSeeder::class,
             UserSeeder::class,
